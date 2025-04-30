@@ -3,6 +3,7 @@ import "./Home.css";
 import Header from "../../components/Header/Header";
 import ExploreMenu from "../../components/ExploreMenu/ExploreMenu";
 import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
+import AppDownload from "../../components/AppDownload/AppDownload";
 
 // Home component serves as the landing page of the application.
 
@@ -14,6 +15,7 @@ const Home = () => {
 			<Header />
 			<ExploreMenu category={category} setCategory={setCategory}/>
 			<FoodDisplay category={category}/>
+			<AppDownload />
 		</div>
 	);
 };
